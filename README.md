@@ -1,4 +1,4 @@
-# Logical Operators and Modulus
+# Pt.2: Conditional Practice
 
 ## Directions
 

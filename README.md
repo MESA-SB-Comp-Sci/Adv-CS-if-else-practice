@@ -4,17 +4,17 @@
 
 -  Create a new codespace
 -  Read the README.md file
--  open your index.js file 
+-  Open your index.js file 
 
 --- 
 
-## In your js file: 
+## In your JS file: 
 
 - You will need to use all of your knowledge up to this point and the material we learned today to solve 3 questions! 
 - Use variables 
 - Use console.logs
-- Use modulus operations and logical operators 
-- There are only 3 questions meaning that you must be detailed in your explanation of your work. 
+- Use modulus operations and logical operators
+- Use conditional statements!
 
 ### Example: 
 
@@ -48,7 +48,7 @@ You can run the JS file by using the following code:
 node index.js
 ```
 
-You will need to run the code every time you want to see a new change! 
+Run the code every time you make a change! 
 
 You can write comments in the following ways:
 

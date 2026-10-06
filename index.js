@@ -47,24 +47,44 @@ if(random1to10 > 10){
  * You will be given a random number; 
  * Your job is to tell the user if the number given is odd, even, or 0! (use console.log)
  *
- * P: given a number from 1-10 determine how many more is needed to make 10
+ * P: given a random number determine if it is odd, even or 0
  * E: 
  * Input: 2 
- * output: 8
+ * output: even
  * 
  * Input: 11
- * Output: -1; This number is MORE than 10!
- * D: Input: Num Output: Num or Error message
- * A: 
- * Initialize a variable with a random number 
- * Check if our randNum is > 10 
- *    log --> This num is MORE than 10!
+ * Output: odd
  * 
+ * Input: 0
+ * Output: 0
+ * 
+ * D: Input: Num 
+ *    Output: Odd, Even or 0 (STRINGS!)
+ * A: 
+ * initialize a random number 
+ * check if the number is 0 
+ *    log -> the num is 0 
+ * check if the number is odd
+ *    log -> the num is odd 
+ * check if the num is even 
+ *    log -> the num is even 
+ * else 
+ *    log -> this is not a number
  * C: Write the code outside of this comment!
  */
 
 let random1to100 = Math.floor(Math.random() * 100);
 console.log(`Your random number is: ${random1to100}`);
+
+if(random1to100 === 0){
+  console.log("The num is 0")
+} else if(random1to100 % 2 === 0){
+  console.log(`${random1to100} is even`)
+} else if(random1to100 % 2 === 1){
+  console.log(`${random1to100} is odd`)
+} else{
+  console.log("This is not a valid input, please input a number!")
+}
 
 /**
  * Q3: Leap Year Checker! 
